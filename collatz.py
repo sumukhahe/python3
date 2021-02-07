@@ -6,11 +6,11 @@ def collatz(number):
             number=number//2
             print(number)
                 
-        elif(number%2==1): # odd Number 
+        elif(number%2==1): # Odd Number 
             number=3*number+1
             print(number)
                 
-        elif(number==1):
+        elif(number==1):    #untill function returns value 1
             print(number)
 
 try:
